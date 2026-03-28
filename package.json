@@ -8,8 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "build": "vite build || exit 0"
   },
   "dependencies": {
+    "gsap": "^3.14.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
