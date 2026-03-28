@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::selection {
+  @apply text-white bg-[#7fff0080];
+} 
+
+@keyframes marquee{
+  0%{transform:translateX(100%);}
+  100% {transform:translateX(-100%); }
+}
+.marquee-track{
+  animation:marquee 10s linear infinite normal;
+  will-change: transform;
+}
+.marquee-track:hover{
+  animation-play-state:paused;
+}
