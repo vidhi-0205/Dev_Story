@@ -45,7 +45,7 @@ const ThirdPage = () => {
                     <div className='flex justify-between'>
                     <div>
                     <p className='text-[#98CD00] text-[1rem] tracking-wide animate-pulse text-xs ' style={{ fontFamily: 'monospace'}}>Stage 01 ...</p>
-                    <h1 className='text-[#00FF41]  md:text-[2rem] text-[1rem] font-bebas font-bold tracking-tight'>HTML<span className='text-white font-bebas font-bold tracking-tight' > GRIND</span></h1>
+                    <h1 className='text-[#00FF41]  md:text-[2rem] text-[1rem] font-bebas font-bold '>HTML<span className='text-white font-bebas font-bold ' > GRIND</span></h1>
                     <p className='text-[#BFC9D1] tracking-wide text-xs ' style={{fontFamily:'monospace'}}>Day 1 of learning web dev</p>
                     </div>
                     <div className='text-[2rem]'>😤</div>
@@ -71,7 +71,7 @@ const ThirdPage = () => {
                     <div className='flex justify-between'>
                     <div>
                     <p className='text-[#C8FF0060] text-[1rem] tracking-wide animate-pulse text-xs ' style={{ fontFamily: 'monospace'}}>Stage 02 ...</p>
-                    <h1 className='text-[#C8FF00]  md:text-[2rem] text-[1rem] font-bebas font-bold tracking-tight'>CSS<span className='text-white font-bebas font-bold tracking-tight' > CRISIS</span></h1>
+                    <h1 className='text-[#C8FF00]  md:text-[2rem] text-[1rem] font-bebas font-bold '>CSS<span className='text-white font-bebas font-bold ' > CRISIS</span></h1>
                     <p className='text-[#BFC9D1] tracking-wide text-xs ' style={{fontFamily:'monospace'}}>Why won't it just CENTER??</p>
                     </div>
                     <div className='text-[2rem]'>😭</div>
@@ -96,7 +96,7 @@ const ThirdPage = () => {
                      <div className='flex justify-between'>
                     <div>
                     <p className='text-[#B6F50080] text-[1rem] tracking-wide animate-pulse text-xs ' style={{ fontFamily: 'monospace'}}>Stage 03 ...</p>
-                    <h1 className='text-[#B6F500]  md:text-[2rem] text-[1rem] font-bebas font-bold tracking-tight'>JS<span className='text-white font-bebas font-bold tracking-tight' > Purgatory</span></h1>
+                    <h1 className='text-[#B6F500]  md:text-[2rem] text-[1rem] font-bebas font-bold '>JS<span className='text-white font-bebas font-bold ' > Purgatory</span></h1>
                     <p className='text-[#BFC9D1] tracking-wide text-xs ' style={{fontFamily:'monospace'}}>async/await? More like async/despair</p>
                     </div>
                     <div className='text-[2rem]'>🤯</div>
@@ -122,7 +122,7 @@ const ThirdPage = () => {
                     <div className='flex justify-between'>
                     <div>
                     <p className='text-[#53CBF380] text-[1rem] tracking-wide animate-pulse text-xs ' style={{ fontFamily: 'monospace'}}>Stage 04 ...</p>
-                    <h1 className='text-[#53CBF3]  md:text-[2rem] text-[1rem] font-bebas font-bold tracking-tight'>THE<span className='text-white font-bebas font-bold tracking-tight' > ENLIGHTMENT</span></h1>
+                    <h1 className='text-[#53CBF3]  md:text-[2rem] text-[1rem] font-bebas font-bold '>THE<span className='text-white font-bebas font-bold ' > ENLIGHTMENT</span></h1>
                     <p className='text-[#BFC9D1] tracking-wide text-xs ' style={{fontFamily:'monospace'}}>npm install everything, question nothing</p>
                     </div>
                     <div className='text-[2rem]'>🧘</div>
@@ -133,7 +133,7 @@ const ThirdPage = () => {
                             <div className="m-1 bg-[#BFC9D150] h-[0.5px] "></div>
                         </div>
                         <p className=' text-[10px] md:text-sm text-[#B6F500] pl-2' style={{fontFamily:'monospace'}}>"dependencies": &#123;</p>
-                        <p className=' text-[10px] md:text-xs text-[#F0B429] pl-1 whitespace-pre ' style={{fontFamily:'monospace'}}>  "react": "^18.0.0",</p> 
+                        <p className=' text-[10px] md:text-xs text-[]#F0B429 pl-1 whitespace-pre ' style={{fontFamily:'monospace'}}>  "react": "^18.0.0",</p> 
                         <p className=' text-[10px] md:text-xs text-[#BFC9D1] whitespace-pre ' style={{fontFamily:'monospace'}}>   "moment": "^2.29.4",</p>
                          <p className=' text-[10px] md:text-sm  text-[#BFC9D160] whitespace-pre ' style={{fontFamily:'monospace'}}> // ^^ 284KB for .format() </p>
                          <p className=' text-[10px] md:text-xs text-[#F0B429] whitespace-pre ' style={{fontFamily:'monospace'}}>   "left-pad": "1.3.0",</p>
